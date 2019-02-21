@@ -86,13 +86,9 @@ ax=nyc_tracts_data.plot(figsize=(10,10))
 coffee_shops_proj.plot(color='black', ax=ax, markersize=5)
 plt.tight_layout()
 fig=ax.get_figure()
-fig.savefig(r'G:\pypy\coffee\NYC_Coffeeshops.jpg')
 
 #To view the optimum areas for citing a coffee shop draped over NYC tracts
 ax= optimum_areas.plot(figsize= (10,10), facecolor='brown', edgecolor='brown')
 nyc_tracts_data.plot(ax=ax, alpha= 0.3, facecolor = 'grey')
 plt.tight_layout()
 fig=ax.get_figure()
-fig.savefig(r'G:\pypy\coffee\NYCOptimumLocations.jpg')
-
-
